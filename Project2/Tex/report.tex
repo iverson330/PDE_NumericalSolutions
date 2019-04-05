@@ -1,0 +1,443 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage{CJK}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{left=2cm, right=2cm, top=2.5cm, bottom=2.5cm}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{lipsum}
+\usepackage{amsfonts}
+\usepackage{indentfirst}
+\usepackage{url}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{enumerate}
+\newtheorem{myDef}{Definition}
+\newtheorem{myTheo}{Theorem}
+
+\usepackage{pythonhighlight}
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{
+    backgroundcolor=\color{white},   % choose the background color
+    basicstyle=\footnotesize\ttfamily,        % size of fonts used for the code
+    columns=fullflexible,
+    breaklines=true,                 % automatic line breaking only at whitespace
+    captionpos=b,                    % sets the caption-position to bottom
+    tabsize=4,
+    commentstyle=\color{mygreen},    % comment style
+    escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+    keywordstyle=\color{blue},       % keyword style
+    stringstyle=\color{mymauve}\ttfamily,     % string literal style
+    frame=single,
+    rulesepcolor=\color{red!20!green!20!blue!20},
+    % identifierstyle=\color{red},
+    language=Python,
+}
+
+
+\floatname{algorithm}{算法}
+\renewcommand{\algorithmicrequire}{\textbf{输入:}}
+\renewcommand{\algorithmicensure}{\textbf{输出:}}
+
+\numberwithin{equation}{section}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}  % song kai li hei
+\title{Project 2: 差分格式稳定性及数值效应比较实验}
+\author{纪经纬 ~~5141209098 }
+% \date{}
+\maketitle
+
+% =========================================================================================================
+
+\section{问题的提出}
+用不同的差分格式求解对流方程
+\begin{equation}
+        \left\{
+            \begin{aligned}
+                u_t + a u_x &=& 0  &   \\
+                u(0,x) &=& f(x)& =  \left\{
+                                \begin{aligned}
+                                    1 &,& x \leq 0  \\
+                                    0 &,& x > 0
+                                \end{aligned}
+                                    \right.
+            \end{aligned}
+        \right.
+    \end{equation}
+参数选取：$a=1,2,4, h=0.1, \tau = 0.08, \lambda = \frac{\tau}{h}=0.8$，得到$t=4$时的数值结果。
+
+利用特征线易知方程的解为$u(x,t) = f(x-at)$。那么$t=4$时，
+\begin{equation}
+    u(x,4) = \left\{
+            \begin{aligned}
+                0, &~~& x > 4a   \\
+                1, &~~& x \leq 4a
+            \end{aligned}
+        \right.
+\end{equation}
+
+\section{不同差分格式的数值计算与分析}
+    本节简要列出差分格式，并附代码。考虑到本次实验用到的都是显式格式，使用循环计算即可，所以使用Python进行数值求解。在此列出$t=4$时解的情况，其他图示列在附录中。
+    % 用图示说明算法的稳定性和间断点附近的计算效果，并进行相应的数值分析。
+    \subsection{迎风格式 Upwind scheme}
+        \begin{equation}
+            u_{j}^{n+1} = u_j^n - a \lambda (u_j^n - u_{j-1}^n)
+        \end{equation}
+    该格式的稳定性条件为$a\lambda \leq 1$。
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=1scheme=1.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=2scheme=1.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=4scheme=1.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+    \subsection{Beam-Warming格式}
+        \begin{equation}
+            u_{j}^{n+1} = u_j^n - a \lambda (u_j^n - u_{j-1}^n) - \frac{a \lambda }{2} (1- a \lambda )(u_j^n - 2 u_{j-1}^n + u^{n}_{j-2} )
+        \end{equation}
+        该格式的稳定性条件为$a\lambda \leq 2$。
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=1scheme=2.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=2scheme=2.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=4scheme=2.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+
+    \subsection{Lax-Friedrichs格式}
+        \begin{equation}
+            u_{j}^{n+1} = \frac{1}{2} ( u_{j+1}^n + u_{j-1}^n ) - \frac{1}{2} a \lambda (u_{j+1}^n - u_{j-1}^n )
+        \end{equation}
+        该格式的稳定性条件为$a\lambda \leq 1$。
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=1scheme=3.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=2scheme=3.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=4scheme=3.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+    \subsection{Lax-Wendroff格式}
+        \begin{equation}
+            u_{j}^{n+1} = u_j^n - \frac{1}{2} a \lambda (u_{j+1}^n - u_{j-1}^n ) + \frac{1}{2} a^2 \lambda^2 (u_{j+1}^n - 2 u_j^n + u_{j-1}^n )
+        \end{equation}
+        该格式的稳定性条件为$a\lambda \leq 1$。
+    \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=1scheme=4.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=2scheme=4.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalsolutiona=4scheme=4.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+\subsection{数值分析}
+从误差图中我们可以看到，稳定性的情况符合预期。Beam-Warming格式稳定性条件相比另外几个格式更好一些。
+
+在解稳定的情况下，向间断点靠拢，Beam-Warming和Lax-Wendroff格式的误差会上下震荡，另外两个则只会将解“抹掉”；在间断点处，相对误差从两边向其递增。
+
+在解不稳定的情况下，受间断点影响，附近的一段段区间误差会急剧上升。并且，从相对误差的数量级大小来看，这4个格式的不稳定程度的升序：Lax-Friedrichs, Upwind, Beam-Warming, Lax-Wendroff。
+
+从全局解的图示中可以清晰地看到，不稳定的情况下初始的微小误差会进行爆炸性累积；“稳定性”在数学上的严格定义在这里有非常直观的体现。
+
+
+% =========================================================================================================
+\clearpage
+\section{附录}
+    \subsection{更多图示}
+    在这里，附上更多相关图示用以说明。包括终值相对误差、全局解、全局相对误差。这里使用的衡量逐点误差的指标相对误差是$|\frac{u_j^n - u(x_j,t_n)}{u(x_j,t_n)}|$。
+    \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=1scheme=1.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=2scheme=1.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=4scheme=1.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=1scheme=2.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=2scheme=2.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=4scheme=2.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=1scheme=3.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=2scheme=3.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=4scheme=3.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=1scheme=4.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=2scheme=4.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Terminalrelativeerrora=4scheme=4.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+% =====================================================
+
+ \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=1scheme=1.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=2scheme=1.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=4scheme=1.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=1scheme=2.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=2scheme=2.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=4scheme=2.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=1scheme=3.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=2scheme=3.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=4scheme=3.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=1scheme=4.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=2scheme=4.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Computedsolutiongrapha=4scheme=4.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+ % ==============================================
+ \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=1scheme=1.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=2scheme=1.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=4scheme=1.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=1scheme=2.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=2scheme=2.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=4scheme=2.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=1scheme=3.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=2scheme=3.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=4scheme=3.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+
+        \begin{figure}[htbp]
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=1scheme=4.png}
+            %\caption{}
+        \end{minipage}%
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=2scheme=4.png}
+            %\caption{}
+        \end{minipage}
+        \begin{minipage}[t]{0.3\linewidth}
+            \centering
+            \includegraphics[width=5cm]{figures/Relativeerrorgrapha=4scheme=4.png}
+            %\caption{}
+        \end{minipage}
+        \end{figure}
+ \clearpage
+ \subsection{源代码}
+        \lstinputlisting[language=Python]{main.py}
+
+\end{CJK*}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

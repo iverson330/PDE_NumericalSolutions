@@ -1,0 +1,1039 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.19)  5 JUN 2018 04:55
+entering extended mode
+**report.tex
+
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project2\
+Tex\report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(G:\CTex\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(G:\CTex\MiKTeX\tex\latex\base\size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(G:\CTex\MiKTeX\tex\latex\cjk\CJK.sty
+Package: CJK 2008/12/29 4.8.2
+
+(G:\CTex\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+Package: MULEenc 2008/12/29 4.8.2
+)
+(G:\CTex\MiKTeX\tex\latex\cjk\CJK.enc
+File: CJK.enc 2008/12/29 4.8.2
+)
+LaTeX Info: Redefining \selectfont on input line 756.
+\CJK@indent=\box26
+)
+(G:\CTex\MiKTeX\tex\latex\caption\caption.sty
+Package: caption 2011/11/10 v3.2e Customizing captions (AR)
+
+(G:\CTex\MiKTeX\tex\latex\caption\caption3.sty
+Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
+
+(G:\CTex\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@indent=\dimen106
+\caption@parindent=\dimen107
+\caption@hangindent=\dimen108
+)
+\c@ContinuedFloat=\count87
+)
+(G:\CTex\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(G:\CTex\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(G:\CTex\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(G:\CTex\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(G:\CTex\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(G:\CTex\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(G:\CTex\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen109
+\Gin@req@width=\dimen110
+)
+(G:\CTex\MiKTeX\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen111
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen112
+\subfiglabelskip=\skip46
+\c@subfigure=\count89
+\c@lofdepth=\count90
+\c@subtable=\count91
+\c@lotdepth=\count92
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(G:\CTex\MiKTeX\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(G:\CTex\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count93
+\@cmidlb=\count94
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count95
+\@lastruleclass=\count96
+\@thisrulewidth=\dimen125
+)
+(G:\CTex\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(G:\CTex\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(G:\CTex\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(G:\CTex\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count97
+\Gm@cntv=\count98
+\c@Gm@tempcnt=\count99
+\Gm@bindingoffset=\dimen126
+\Gm@wd@mp=\dimen127
+\Gm@odd@mp=\dimen128
+\Gm@even@mp=\dimen129
+\Gm@layoutwidth=\dimen130
+\Gm@layoutheight=\dimen131
+\Gm@layouthoffset=\dimen132
+\Gm@layoutvoffset=\dimen133
+\Gm@dimlist=\toks15
+
+(G:\CTex\MiKTeX\tex\latex\geometry\geometry.cfg))
+(G:\CTex\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(G:\CTex\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(G:\CTex\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen134
+))
+(G:\CTex\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen135
+)
+(G:\CTex\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip10
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks17
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks18
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(G:\CTex\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(G:\CTex\MiKTeX\tex\latex\lipsum\lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count112
+)
+(G:\CTex\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(G:\CTex\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(G:\CTex\MiKTeX\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(G:\CTex\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(G:\CTex\MiKTeX\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(G:\CTex\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count113
+\float@exts=\toks21
+\float@box=\box29
+\@float@everytoks=\toks22
+\@floatcapt=\box30
+)
+(G:\CTex\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count114
+)
+(G:\CTex\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count115
+\c@ALG@rem=\count116
+\c@ALG@nested=\count117
+\ALG@tlm=\skip52
+\ALG@thistlm=\skip53
+\c@ALG@Lnr=\count118
+\c@ALG@blocknr=\count119
+\c@ALG@storecount=\count120
+\c@ALG@tmpcounter=\count121
+\ALG@tmplength=\skip54
+) (G:\CTex\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (G:\CTex\MiKTeX\tex\latex\tools\enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks24
+)
+\c@myDef=\count122
+\c@myTheo=\count123
+
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project2\
+Tex\pythonhighlight.sty
+Package: pythonhighlight 2011/09/19 python code highlighting; provided by Olivi
+er Verdier <olivier.verdier@gmail.com>
+ (G:\CTex\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count124
+\lst@gtempboxa=\box31
+\lst@token=\toks25
+\lst@length=\count125
+\lst@currlwidth=\dimen143
+\lst@column=\count126
+\lst@pos=\count127
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
+\lst@newlines=\count128
+\lst@lineno=\count129
+\lst@maxwidth=\dimen146
+
+(G:\CTex\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count130
+\lst@skipnumbers=\count131
+\lst@framebox=\box32
+)
+(G:\CTex\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(G:\CTex\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(G:\CTex\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(G:\CTex\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project2\
+Tex\report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (G:\CTex\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count132
+\scratchdimen=\dimen147
+\scratchbox=\box33
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen148
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks27
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=702.78308pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count138
+(G:\CTex\MiKTeX\tex\latex\cjk\standard.bdg
+File: standard.bdg 2008/12/29 4.8.2
+)
+(G:\CTex\MiKTeX\tex\latex\cjk\extended.enc
+File: extended.enc 2008/12/29 4.8.2
+)
+(G:\CTex\MiKTeX\tex\latex\cjk\extended.chr
+File: extended.chr 2008/12/29 4.8.2
+)
+LaTeX Font Info:    Try loading font information for C19+song on input line 60.
+
+
+(G:\CTex\CTeX\tex\latex\CJK\GB\c19song.fd
+File: c19song.fd 2009/09/23 4.8.2
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 60.
+
+(G:\CTex\MiKTeX\tex\latex\jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+
+(G:\CTex\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+
+(G:\CTex\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+<figures/Terminalsolutiona=1scheme=1.png, id=1, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=1scheme=1.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=1scheme=1.png>
+Package pdftex.def Info: figures/Terminalsolutiona=1scheme=1.png used on input 
+line 102.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=2scheme=1.png, id=3, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=2scheme=1.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=2scheme=1.png>
+Package pdftex.def Info: figures/Terminalsolutiona=2scheme=1.png used on input 
+line 107.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=4scheme=1.png, id=4, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=4scheme=1.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=4scheme=1.png>
+Package pdftex.def Info: figures/Terminalsolutiona=4scheme=1.png used on input 
+line 112.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=1scheme=2.png, id=5, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=1scheme=2.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=1scheme=2.png>
+Package pdftex.def Info: figures/Terminalsolutiona=1scheme=2.png used on input 
+line 125.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=2scheme=2.png, id=6, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=2scheme=2.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=2scheme=2.png>
+Package pdftex.def Info: figures/Terminalsolutiona=2scheme=2.png used on input 
+line 130.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=4scheme=2.png, id=7, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=4scheme=2.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=4scheme=2.png>
+Package pdftex.def Info: figures/Terminalsolutiona=4scheme=2.png used on input 
+line 135.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+ [1
+
+{G:/CTex/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <C:/Users/ha
+see/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figures/
+Terminalsolutiona=1scheme=1.png> <C:/Users/hasee/Desktop/PartialDifferentialEqu
+ationNumerical/Projects/Project2/Tex/figures/Terminalsolutiona=2scheme=1.png> <
+C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/T
+ex/figures/Terminalsolutiona=4scheme=1.png>]
+<figures/Terminalsolutiona=1scheme=3.png, id=55, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=1scheme=3.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=1scheme=3.png>
+Package pdftex.def Info: figures/Terminalsolutiona=1scheme=3.png used on input 
+line 149.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=2scheme=3.png, id=56, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=2scheme=3.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=2scheme=3.png>
+Package pdftex.def Info: figures/Terminalsolutiona=2scheme=3.png used on input 
+line 154.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=4scheme=3.png, id=57, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=4scheme=3.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=4scheme=3.png>
+Package pdftex.def Info: figures/Terminalsolutiona=4scheme=3.png used on input 
+line 159.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=1scheme=4.png, id=58, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=1scheme=4.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=1scheme=4.png>
+Package pdftex.def Info: figures/Terminalsolutiona=1scheme=4.png used on input 
+line 172.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=2scheme=4.png, id=59, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=2scheme=4.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=2scheme=4.png>
+Package pdftex.def Info: figures/Terminalsolutiona=2scheme=4.png used on input 
+line 177.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalsolutiona=4scheme=4.png, id=60, 462.528pt x 346.896pt>
+File: figures/Terminalsolutiona=4scheme=4.png Graphic file (type png)
+
+<use figures/Terminalsolutiona=4scheme=4.png>
+Package pdftex.def Info: figures/Terminalsolutiona=4scheme=4.png used on input 
+line 182.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+ [2 <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Proje
+ct2/Tex/figures/Terminalsolutiona=1scheme=2.png> <C:/Users/hasee/Desktop/Partia
+lDifferentialEquationNumerical/Projects/Project2/Tex/figures/Terminalsolutiona=
+2scheme=2.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Pro
+jects/Project2/Tex/figures/Terminalsolutiona=4scheme=2.png> <C:/Users/hasee/Des
+ktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Termina
+lsolutiona=1scheme=3.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNu
+merical/Projects/Project2/Tex/figures/Terminalsolutiona=2scheme=3.png> <C:/User
+s/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figu
+res/Terminalsolutiona=4scheme=3.png> <C:/Users/hasee/Desktop/PartialDifferentia
+lEquationNumerical/Projects/Project2/Tex/figures/Terminalsolutiona=1scheme=4.pn
+g> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Projec
+t2/Tex/figures/Terminalsolutiona=2scheme=4.png> <C:/Users/hasee/Desktop/Partial
+DifferentialEquationNumerical/Projects/Project2/Tex/figures/Terminalsolutiona=4
+scheme=4.png>]
+<figures/Terminalrelativeerrora=1scheme=1.png, id=73, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=1scheme=1.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=1scheme=1.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=1scheme=1.png used on i
+nput line 205.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=2scheme=1.png, id=74, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=2scheme=1.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=2scheme=1.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=2scheme=1.png used on i
+nput line 210.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=4scheme=1.png, id=75, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=4scheme=1.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=4scheme=1.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=4scheme=1.png used on i
+nput line 215.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=1scheme=2.png, id=76, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=1scheme=2.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=1scheme=2.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=1scheme=2.png used on i
+nput line 223.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=2scheme=2.png, id=77, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=2scheme=2.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=2scheme=2.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=2scheme=2.png used on i
+nput line 228.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=4scheme=2.png, id=78, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=4scheme=2.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=4scheme=2.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=4scheme=2.png used on i
+nput line 233.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=1scheme=3.png, id=79, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=1scheme=3.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=1scheme=3.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=1scheme=3.png used on i
+nput line 241.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=2scheme=3.png, id=80, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=2scheme=3.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=2scheme=3.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=2scheme=3.png used on i
+nput line 246.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=4scheme=3.png, id=81, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=4scheme=3.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=4scheme=3.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=4scheme=3.png used on i
+nput line 251.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=1scheme=4.png, id=82, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=1scheme=4.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=1scheme=4.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=1scheme=4.png used on i
+nput line 259.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=2scheme=4.png, id=83, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=2scheme=4.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=2scheme=4.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=2scheme=4.png used on i
+nput line 264.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Terminalrelativeerrora=4scheme=4.png, id=84, 462.528pt x 346.896pt>
+File: figures/Terminalrelativeerrora=4scheme=4.png Graphic file (type png)
+
+<use figures/Terminalrelativeerrora=4scheme=4.png>
+Package pdftex.def Info: figures/Terminalrelativeerrora=4scheme=4.png used on i
+nput line 269.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=1scheme=1.png, id=85, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=1scheme=1.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=1scheme=1.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=1scheme=1.png used on i
+nput line 279.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=2scheme=1.png, id=86, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=2scheme=1.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=2scheme=1.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=2scheme=1.png used on i
+nput line 284.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=4scheme=1.png, id=87, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=4scheme=1.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=4scheme=1.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=4scheme=1.png used on i
+nput line 289.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=1scheme=2.png, id=88, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=1scheme=2.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=1scheme=2.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=1scheme=2.png used on i
+nput line 297.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=2scheme=2.png, id=89, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=2scheme=2.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=2scheme=2.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=2scheme=2.png used on i
+nput line 302.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=4scheme=2.png, id=90, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=4scheme=2.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=4scheme=2.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=4scheme=2.png used on i
+nput line 307.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=1scheme=3.png, id=91, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=1scheme=3.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=1scheme=3.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=1scheme=3.png used on i
+nput line 315.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=2scheme=3.png, id=92, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=2scheme=3.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=2scheme=3.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=2scheme=3.png used on i
+nput line 320.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=4scheme=3.png, id=93, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=4scheme=3.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=4scheme=3.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=4scheme=3.png used on i
+nput line 325.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=1scheme=4.png, id=94, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=1scheme=4.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=1scheme=4.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=1scheme=4.png used on i
+nput line 333.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=2scheme=4.png, id=95, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=2scheme=4.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=2scheme=4.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=2scheme=4.png used on i
+nput line 338.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Computedsolutiongrapha=4scheme=4.png, id=96, 462.528pt x 346.896pt>
+File: figures/Computedsolutiongrapha=4scheme=4.png Graphic file (type png)
+
+<use figures/Computedsolutiongrapha=4scheme=4.png>
+Package pdftex.def Info: figures/Computedsolutiongrapha=4scheme=4.png used on i
+nput line 343.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=1scheme=1.png, id=97, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=1scheme=1.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=1scheme=1.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=1scheme=1.png used on inpu
+t line 351.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=2scheme=1.png, id=98, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=2scheme=1.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=2scheme=1.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=2scheme=1.png used on inpu
+t line 356.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=4scheme=1.png, id=99, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=4scheme=1.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=4scheme=1.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=4scheme=1.png used on inpu
+t line 361.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=1scheme=2.png, id=100, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=1scheme=2.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=1scheme=2.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=1scheme=2.png used on inpu
+t line 369.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=2scheme=2.png, id=101, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=2scheme=2.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=2scheme=2.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=2scheme=2.png used on inpu
+t line 374.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=4scheme=2.png, id=102, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=4scheme=2.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=4scheme=2.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=4scheme=2.png used on inpu
+t line 379.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=1scheme=3.png, id=103, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=1scheme=3.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=1scheme=3.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=1scheme=3.png used on inpu
+t line 387.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=2scheme=3.png, id=104, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=2scheme=3.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=2scheme=3.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=2scheme=3.png used on inpu
+t line 392.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=4scheme=3.png, id=105, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=4scheme=3.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=4scheme=3.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=4scheme=3.png used on inpu
+t line 397.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=1scheme=4.png, id=106, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=1scheme=4.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=1scheme=4.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=1scheme=4.png used on inpu
+t line 405.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=2scheme=4.png, id=107, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=2scheme=4.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=2scheme=4.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=2scheme=4.png used on inpu
+t line 410.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+<figures/Relativeerrorgrapha=4scheme=4.png, id=108, 462.528pt x 346.896pt>
+File: figures/Relativeerrorgrapha=4scheme=4.png Graphic file (type png)
+
+<use figures/Relativeerrorgrapha=4scheme=4.png>
+Package pdftex.def Info: figures/Relativeerrorgrapha=4scheme=4.png used on inpu
+t line 415.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+ [3
+
+ <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Project2
+/Tex/figures/Terminalrelativeerrora=1scheme=1.png> <C:/Users/hasee/Desktop/Part
+ialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Terminalrelative
+errora=2scheme=1.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumeri
+cal/Projects/Project2/Tex/figures/Terminalrelativeerrora=4scheme=1.png> <C:/Use
+rs/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/fig
+ures/Terminalrelativeerrora=1scheme=2.png> <C:/Users/hasee/Desktop/PartialDiffe
+rentialEquationNumerical/Projects/Project2/Tex/figures/Terminalrelativeerrora=2
+scheme=2.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Proj
+ects/Project2/Tex/figures/Terminalrelativeerrora=4scheme=2.png> <C:/Users/hasee
+/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Ter
+minalrelativeerrora=1scheme=3.png> <C:/Users/hasee/Desktop/PartialDifferentialE
+quationNumerical/Projects/Project2/Tex/figures/Terminalrelativeerrora=2scheme=3
+.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Pro
+ject2/Tex/figures/Terminalrelativeerrora=4scheme=3.png>] [4 <C:/Users/hasee/Des
+ktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Termina
+lrelativeerrora=1scheme=4.png> <C:/Users/hasee/Desktop/PartialDifferentialEquat
+ionNumerical/Projects/Project2/Tex/figures/Terminalrelativeerrora=2scheme=4.png
+> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Project
+2/Tex/figures/Terminalrelativeerrora=4scheme=4.png> <C:/Users/hasee/Desktop/Par
+tialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Computedsolutio
+ngrapha=1scheme=1.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumer
+ical/Projects/Project2/Tex/figures/Computedsolutiongrapha=2scheme=1.png> <C:/Us
+ers/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/fi
+gures/Computedsolutiongrapha=4scheme=1.png> <C:/Users/hasee/Desktop/PartialDiff
+erentialEquationNumerical/Projects/Project2/Tex/figures/Computedsolutiongrapha=
+1scheme=2.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Pro
+jects/Project2/Tex/figures/Computedsolutiongrapha=2scheme=2.png> <C:/Users/hase
+e/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Co
+mputedsolutiongrapha=4scheme=2.png> <C:/Users/hasee/Desktop/PartialDifferential
+EquationNumerical/Projects/Project2/Tex/figures/Computedsolutiongrapha=1scheme=
+3.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Pr
+oject2/Tex/figures/Computedsolutiongrapha=2scheme=3.png> <C:/Users/hasee/Deskto
+p/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Computedso
+lutiongrapha=4scheme=3.png> <C:/Users/hasee/Desktop/PartialDifferentialEquation
+Numerical/Projects/Project2/Tex/figures/Computedsolutiongrapha=1scheme=4.png> <
+C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/T
+ex/figures/Computedsolutiongrapha=2scheme=4.png> <C:/Users/hasee/Desktop/Partia
+lDifferentialEquationNumerical/Projects/Project2/Tex/figures/Computedsolutiongr
+apha=4scheme=4.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerica
+l/Projects/Project2/Tex/figures/Relativeerrorgrapha=1scheme=1.png> <C:/Users/ha
+see/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figures/
+Relativeerrorgrapha=2scheme=1.png> <C:/Users/hasee/Desktop/PartialDifferentialE
+quationNumerical/Projects/Project2/Tex/figures/Relativeerrorgrapha=4scheme=1.pn
+g>] [5 <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Pr
+oject2/Tex/figures/Relativeerrorgrapha=1scheme=2.png> <C:/Users/hasee/Desktop/P
+artialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Relativeerror
+grapha=2scheme=2.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumeri
+cal/Projects/Project2/Tex/figures/Relativeerrorgrapha=4scheme=2.png> <C:/Users/
+hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figure
+s/Relativeerrorgrapha=1scheme=3.png> <C:/Users/hasee/Desktop/PartialDifferentia
+lEquationNumerical/Projects/Project2/Tex/figures/Relativeerrorgrapha=2scheme=3.
+png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Proj
+ect2/Tex/figures/Relativeerrorgrapha=4scheme=3.png> <C:/Users/hasee/Desktop/Par
+tialDifferentialEquationNumerical/Projects/Project2/Tex/figures/Relativeerrorgr
+apha=1scheme=4.png> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerica
+l/Projects/Project2/Tex/figures/Relativeerrorgrapha=2scheme=4.png> <C:/Users/ha
+see/Desktop/PartialDifferentialEquationNumerical/Projects/Project2/Tex/figures/
+Relativeerrorgrapha=4scheme=4.png>]
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project2\
+Tex\main.py [6
+
+
+! Incomplete \iffalse; all text was ignored after line 63.
+<inserted text> 
+                \fi 
+l.63     def 
+             print_u_matrix(self):
+? 
+! Incomplete \iffalse; all text was ignored after line 63.
+<inserted text> 
+                \fi 
+l.63     def 
+             print_u_matrix(self):
+? 
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\global \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.63     def 
+             print_u_matrix(self):
+? 
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\global \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.63     def 
+             print_u_matrix(self):
+? 
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\global \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.63     def 
+             print_u_matrix(self):
+? 
+] [7] [8]) [9]
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project2\
+Tex\report.aux) ) 
+Here is how much of TeX's memory you used:
+ 8316 strings out of 495354
+ 118995 string characters out of 3183859
+ 669736 words of memory out of 3000000
+ 11282 multiletter control sequences out of 15000+200000
+ 32984 words of font info for 118 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 36i,15n,48p,457b,1909s stack positions out of 5000i,500n,10000p,200000b,50000s
+<G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/
+fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.t
+tf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype
+/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CT
+eX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsu
+n.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truet
+ype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex
+/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/si
+msun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/tr
+uetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/C
+Tex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese
+/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts
+/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G
+:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chin
+ese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fo
+nts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf
+><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/c
+hinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX
+/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTeX/fonts/truetype/chinese/simsun.
+ttf><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/CTex/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><G:/CTex/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><G
+:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><G:/CTex/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><G:/CTex/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><G:/CTex/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on report.pdf (9 pages, 3402347 bytes).
+PDF statistics:
+ 301 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+
