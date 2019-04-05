@@ -1,0 +1,1273 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.19)  7 JUN 2018 21:28
+entering extended mode
+**report.tex
+
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project3\
+TexCH\report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(G:\CTex\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(G:\CTex\MiKTeX\tex\latex\base\size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(G:\CTex\MiKTeX\tex\latex\cjk\CJK.sty
+Package: CJK 2008/12/29 4.8.2
+
+(G:\CTex\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+Package: MULEenc 2008/12/29 4.8.2
+)
+(G:\CTex\MiKTeX\tex\latex\cjk\CJK.enc
+File: CJK.enc 2008/12/29 4.8.2
+)
+LaTeX Info: Redefining \selectfont on input line 756.
+\CJK@indent=\box26
+)
+(G:\CTex\MiKTeX\tex\latex\caption\caption.sty
+Package: caption 2011/11/10 v3.2e Customizing captions (AR)
+
+(G:\CTex\MiKTeX\tex\latex\caption\caption3.sty
+Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
+
+(G:\CTex\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@indent=\dimen106
+\caption@parindent=\dimen107
+\caption@hangindent=\dimen108
+)
+\c@ContinuedFloat=\count87
+)
+(G:\CTex\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(G:\CTex\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(G:\CTex\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(G:\CTex\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(G:\CTex\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(G:\CTex\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(G:\CTex\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen109
+\Gin@req@width=\dimen110
+)
+(G:\CTex\MiKTeX\tex\latex\subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count89
+\sf@farskip=\skip43
+\sf@captopadj=\dimen111
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count90
+\c@subfigure@save=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@subtable@save=\count94
+\c@lotdepth=\count95
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+(G:\CTex\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen112
+\lightrulewidth=\dimen113
+\cmidrulewidth=\dimen114
+\belowrulesep=\dimen115
+\belowbottomsep=\dimen116
+\aboverulesep=\dimen117
+\abovetopsep=\dimen118
+\cmidrulesep=\dimen119
+\cmidrulekern=\dimen120
+\defaultaddspace=\dimen121
+\@cmidla=\count96
+\@cmidlb=\count97
+\@aboverulesep=\dimen122
+\@belowrulesep=\dimen123
+\@thisruleclass=\count98
+\@lastruleclass=\count99
+\@thisrulewidth=\dimen124
+)
+(G:\CTex\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(G:\CTex\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(G:\CTex\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(G:\CTex\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen125
+\Gm@wd@mp=\dimen126
+\Gm@odd@mp=\dimen127
+\Gm@even@mp=\dimen128
+\Gm@layoutwidth=\dimen129
+\Gm@layoutheight=\dimen130
+\Gm@layouthoffset=\dimen131
+\Gm@layoutvoffset=\dimen132
+\Gm@dimlist=\toks15
+
+(G:\CTex\MiKTeX\tex\latex\geometry\geometry.cfg))
+(G:\CTex\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(G:\CTex\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(G:\CTex\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen133
+))
+(G:\CTex\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen134
+)
+(G:\CTex\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count103
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count104
+\leftroot@=\count105
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count106
+\DOTSCASE@=\count107
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen135
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
+\dotsspace@=\muskip10
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
+\tag@help=\toks17
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
+\andhelp@=\toks18
+\eqnshift@=\dimen136
+\alignsep@=\dimen137
+\tagshift@=\dimen138
+\tagwidth@=\dimen139
+\totwidth@=\dimen140
+\lineht@=\dimen141
+\@envbody=\toks19
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(G:\CTex\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(G:\CTex\MiKTeX\tex\latex\lipsum\lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count115
+)
+(G:\CTex\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(G:\CTex\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(G:\CTex\MiKTeX\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(G:\CTex\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(G:\CTex\MiKTeX\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(G:\CTex\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count116
+\float@exts=\toks21
+\float@box=\box29
+\@float@everytoks=\toks22
+\@floatcapt=\box30
+)
+(G:\CTex\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count117
+)
+(G:\CTex\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count118
+\c@ALG@rem=\count119
+\c@ALG@nested=\count120
+\ALG@tlm=\skip51
+\ALG@thistlm=\skip52
+\c@ALG@Lnr=\count121
+\c@ALG@blocknr=\count122
+\c@ALG@storecount=\count123
+\c@ALG@tmpcounter=\count124
+\ALG@tmplength=\skip53
+) (G:\CTex\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (G:\CTex\MiKTeX\tex\latex\tools\enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks24
+)
+\c@myDef=\count125
+\c@myTheo=\count126
+
+(G:\CTex\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count127
+\lst@gtempboxa=\box31
+\lst@token=\toks25
+\lst@length=\count128
+\lst@currlwidth=\dimen142
+\lst@column=\count129
+\lst@pos=\count130
+\lst@lostspace=\dimen143
+\lst@width=\dimen144
+\lst@newlines=\count131
+\lst@lineno=\count132
+\lst@maxwidth=\dimen145
+
+(G:\CTex\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count133
+\lst@skipnumbers=\count134
+\lst@framebox=\box32
+)
+(G:\CTex\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(G:\CTex\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(G:\CTex\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project3\
+TexCH\pythonhighlight.sty
+Package: pythonhighlight 2011/09/19 python code highlighting; provided by Olivi
+er Verdier <olivier.verdier@gmail.com>
+ (G:\CTex\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(G:\CTex\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(G:\CTex\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project3\
+TexCH\report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (G:\CTex\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count135
+\scratchdimen=\dimen146
+\scratchbox=\box33
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen147
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks27
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count141
+(G:\CTex\MiKTeX\tex\latex\cjk\standard.bdg
+File: standard.bdg 2008/12/29 4.8.2
+)
+(G:\CTex\MiKTeX\tex\latex\cjk\extended.enc
+File: extended.enc 2008/12/29 4.8.2
+)
+(G:\CTex\MiKTeX\tex\latex\cjk\extended.chr
+File: extended.chr 2008/12/29 4.8.2
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 65.
+
+(G:\CTex\MiKTeX\tex\latex\jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+
+(G:\CTex\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+
+(G:\CTex\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for C19+song on input line 69.
+
+
+(G:\CTex\CTeX\tex\latex\CJK\GB\c19song.fd
+File: c19song.fd 2009/09/23 4.8.2
+) [1
+
+{G:/CTex/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}] [2]
+Overfull \hbox (2.0124pt too wide) in alignment at lines 220--226
+ [][][] []
+ []
+
+[3]
+Overfull \hbox (42.30058pt too wide) in alignment at lines 229--234
+ [][][] []
+ []
+
+<Figures/n10.png, id=27, 1040.688pt x 555.0336pt>
+File: Figures/n10.png Graphic file (type png)
+ <use Figures/n10.png>
+Package pdftex.def Info: Figures/n10.png used on input line 260.
+(pdftex.def)             Requested size: 398.33858pt x 212.44786pt.
+
+<Figures/n100.png, id=29, 1040.688pt x 555.0336pt>
+File: Figures/n100.png Graphic file (type png)
+ <use Figures/n100.png>
+Package pdftex.def Info: Figures/n100.png used on input line 266.
+(pdftex.def)             Requested size: 398.33858pt x 212.44786pt.
+
+<Figures/n1000.png, id=30, 1040.688pt x 555.0336pt>
+File: Figures/n1000.png Graphic file (type png)
+ <use Figures/n1000.png>
+Package pdftex.def Info: Figures/n1000.png used on input line 272.
+(pdftex.def)             Requested size: 398.33858pt x 212.44786pt.
+
+<Figures/n10000.png, id=31, 1387.584pt x 685.1196pt>
+File: Figures/n10000.png Graphic file (type png)
+ <use Figures/n10000.png>
+Package pdftex.def Info: Figures/n10000.png used on input line 278.
+(pdftex.def)             Requested size: 398.33858pt x 196.67241pt.
+
+[4] [5 <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Pr
+oject3/TexCH/Figures/n10.png> <C:/Users/hasee/Desktop/PartialDifferentialEquati
+onNumerical/Projects/Project3/TexCH/Figures/n100.png>] [6 <C:/Users/hasee/Deskt
+op/PartialDifferentialEquationNumerical/Projects/Project3/TexCH/Figures/n1000.p
+ng> <C:/Users/hasee/Desktop/PartialDifferentialEquationNumerical/Projects/Proje
+ct3/TexCH/Figures/n10000.png>]
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project3\
+TexCH\OneDimensional.py
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+[7
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 84.
+
+
+Package xcolor Warning: Incompatible color definition on input line 84.
+
+
+Package xcolor Warning: Incompatible color definition on input line 84.
+
+
+Package xcolor Warning: Incompatible color definition on input line 84.
+
+
+Package xcolor Warning: Incompatible color definition on input line 84.
+
+
+Package xcolor Warning: Incompatible color definition on input line 84.
+
+
+Package xcolor Warning: Incompatible color definition on input line 86.
+
+
+Package xcolor Warning: Incompatible color definition on input line 86.
+
+
+Package xcolor Warning: Incompatible color definition on input line 86.
+
+
+Package xcolor Warning: Incompatible color definition on input line 105.
+
+
+Package xcolor Warning: Incompatible color definition on input line 105.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 107.
+
+
+Package xcolor Warning: Incompatible color definition on input line 107.
+
+
+Package xcolor Warning: Incompatible color definition on input line 107.
+
+
+Package xcolor Warning: Incompatible color definition on input line 107.
+
+
+Package xcolor Warning: Incompatible color definition on input line 107.
+
+
+Package xcolor Warning: Incompatible color definition on input line 107.
+
+
+Package xcolor Warning: Incompatible color definition on input line 107.
+
+
+Package xcolor Warning: Incompatible color definition on input line 107.
+
+[8]
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+
+Package xcolor Warning: Incompatible color definition on input line 111.
+
+) [9]
+(C:\Users\hasee\Desktop\PartialDifferentialEquationNumerical\Projects\Project3\
+TexCH\report.aux) ) 
+Here is how much of TeX's memory you used:
+ 7790 strings out of 495354
+ 103039 string characters out of 3183859
+ 589199 words of memory out of 3000000
+ 10822 multiletter control sequences out of 15000+200000
+ 14947 words of font info for 60 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 36i,14n,48p,616b,1907s stack positions out of 5000i,500n,10000p,200000b,50000s
+<G:/CTex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/CTex/CTe
+X/fonts/truetype/chinese/simsun.ttf><G:/CTex/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/CT
+ex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><G:/CTex/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><G:/CTex/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/CTex/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><G:/CTex/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr9.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><G:/CTex/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><G:/CTex/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+><G:/CTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><G:/CTex/MiKTeX/fonts
+/type1/public/amsfonts/symbols/msam10.pfb><G:/CTex/MiKTeX/fonts/type1/public/am
+sfonts/symbols/msbm7.pfb>
+Output written on report.pdf (9 pages, 390224 bytes).
+PDF statistics:
+ 125 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
